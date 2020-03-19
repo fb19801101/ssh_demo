@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="struts:hibernate.cfg.xml/Hibernate" uuid="69fee47b-730e-4608-8698-b956f04b2748">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Administrator/IdeaProjects/ssh_demo/src/main/resources/struts/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/db_webapp?characterEncoding=utf-8</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="db-config" uuid="f485736c-769a-466a-be51-09a0a41fcdbf">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>jdbc.properties
+
+C:/Users/Administrator/IdeaProjects/ssh_demo/src/main/resources/properties/db-config.properties</remarks>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/db_webapp?characterEncoding=utf-8&amp;serverTimezone=GMT%2B8&amp;useUnicode=true&amp;useSSL=false</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dataSource" uuid="d93c7c3e-5389-4735-8f0d-320e3c6cbff8">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>c3p0
+
+C:/Users/Administrator/IdeaProjects/ssh_demo/src/main/resources/struts/applicationContext.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/db_webapp?characterEncoding=utf-8&amp;serverTimezone=GMT%2B8&amp;useUnicode=true&amp;useSSL=false</jdbc-url>
+    </data-source>
+  </component>
+</project>
